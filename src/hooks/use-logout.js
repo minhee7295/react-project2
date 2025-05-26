@@ -10,7 +10,5 @@ export function useLogout() {
         navigate('/');
     }
 
-    return (
-        logoutHandler
-    )
+    return logoutHandler;
 }

@@ -2,7 +2,7 @@ import MovieList from "../component/MovieList";
 import { useLogout } from "../hooks/use-logout";
 
 function Home() {
-    const {logoutHandler} = useLogout();
+    const logoutHandler = useLogout();
 
     return (
         <div>
